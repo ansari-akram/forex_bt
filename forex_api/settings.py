@@ -99,7 +99,7 @@ WSGI_APPLICATION = 'forex_api.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'mssql',
+        'ENGINE': 'django.db.backends.postgresql',
         'NAME': 'forex_bt',
         'USER': 'postgres',
         'PASSWORD': 'postgres',
